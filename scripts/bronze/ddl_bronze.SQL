@@ -6,6 +6,7 @@ Script Purpose:
     This script creates table in the 'broze' schema, dropping existing tables if they already exist.
     Run this script to redefine the DDL srtucture of 'bronze' ables
 ===============================================================================================
+*/
 
 
 IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL
